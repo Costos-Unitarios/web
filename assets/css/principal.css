@@ -1,0 +1,108 @@
+@media (min-width: 768px){
+    h1{
+    color: white;
+    background-color:rgba(14,23,78,255);
+    background-repeat: no-repeat;
+    padding: 80px;
+    margin: auto;
+    text-align: center;
+        color: white;
+        background-image: url("/assets/Img/alcaldia.jpg"); 
+}
+p::before{
+    margin-left: 23cm;
+    content: "Precio de Costos Unitarios actualizados a fecha";
+}
+
+body{
+
+    background-color:white ;
+    margin: auto;
+    padding: 0px;
+}
+
+    /*table { 
+        
+        border-collapse: collapse; 
+        margin: auto; 
+        font-size: 1em; 
+        font-family: sans-serif; 
+    }
+    
+    thead,tr 
+    { background-image: url(../Img/alcaldia.jpg); 
+        color: #ffffff; 
+        text-align: middle; 
+    
+    }
+    th,td { 
+        padding: 12px 15px; 
+        
+    }
+    tbody,tr { 
+        border-bottom: 0.5px solid white; 
+    } 
+    */
+    th{
+        text-align: center;
+    }
+    footer{
+        margin: 20px;
+        padding: auto;
+    }
+
+    nav{
+        padding: 1px;
+        margin: auto;
+        
+    }
+    h4{
+        margin: 20px;
+        padding: auto;
+    }
+}
+    @media (max-width: 480px){
+        h1{
+            color: white;
+            background-color:rgba(14,23,78,255);
+            background-repeat: no-repeat;
+            padding: 8px;
+            margin: auto;
+            text-align: center;
+                color: white;
+                background-image: url("/assets/Img/alcaldia.jpg"); 
+                font-family: 'Montserrat', sans-serif;
+        }
+        p::before{
+            margin-right:0px ;
+            font-family: 'Nunito', sans-serif;
+            
+        }
+        p::before{
+            content: "Actualizada a fecha";
+        }
+        body{
+
+            background-color:white ;
+            margin: auto;
+            padding: 0px;
+        }
+        th{
+            text-align: center;
+        }
+        footer{
+            margin: 12px;
+            padding: auto;
+        }
+    
+        nav{
+            padding: 1px;
+            margin: auto;
+            
+        }
+        h4{
+            margin: 2px;
+            padding: auto;
+        }
+        
+    }
