@@ -1107,6 +1107,17 @@
                     </tr>
                 </tbody>
             </table>
-            
+             <script>
+                const buscador = document.getElementById('buscador');
+                const filas = document.querySelectorAll('#tabla-contenido tr');
+              
+                buscador.addEventListener('input', () => {
+                  const filtro = buscador.value.toLowerCase();
+                  filas.forEach(fila => {
+                    const texto = fila.textContent.toLowerCase();
+                    fila.style.display = texto.includes(filtro) ? '' : 'none';
+                  });
+                });
+              </script>
             </body>
             </html>
