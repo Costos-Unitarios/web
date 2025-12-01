@@ -11,7 +11,7 @@
 }
 p::before{
     margin-left: 23cm;
-    content: "Precio de Costos Unitarios "SIN IVA" actualizados a fecha";
+    content: "Precio de Costos Unitarios SIN IVA actualizados a fecha";
 }
 
 body{
@@ -176,4 +176,5 @@ body{
           }
         
     }
+
 
